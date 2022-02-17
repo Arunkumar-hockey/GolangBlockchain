@@ -90,6 +90,7 @@ func (bc *BlockChain) Print() {
 			strings.Repeat("=", 25))
 		block.Print()
 	}
+	
 	fmt.Printf("%s\n", strings.Repeat("*", 25))
 }
 
